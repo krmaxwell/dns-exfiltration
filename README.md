@@ -30,3 +30,10 @@ Exfiltrate files via DNS. Based on [research by 16 Systems](http://16s.us/dns/).
 This can be automated and made to be very efficient, but I won't get into that. It also works on very large files (2^32 * 8) and with any type of file (text, binary, etc). So, now you know how to exfiltrate files from a firewalled network using simple DNS queries. When/if the network security team figures this out and blocks it, I'll demonstrate a few other ways in which data can be exfiltrated.
 
 Again, this information is meant for research/educational purposes only.
+
+### Related Work
+
+- [iodine](http://code.kryo.se/iodine/)
+- [OzymanDNS](http://en.cship.org/wiki/OzymanDNS)
+- [DNStunnel.de](http://dnstunnel.de/)
+- http://tools.ietf.org/html/draft-vixie-dnsext-dns0x20-00
